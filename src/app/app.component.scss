@@ -18,3 +18,13 @@ p {
           border-radius: 10px;}
   }
 }
+
+.message-error {
+  background:red;
+  color: white;
+    opacity:0;
+    transition: all linear .5s;
+    &.active{
+       opacity:1;
+    }
+}
